@@ -118,10 +118,19 @@ textarea {
     padding-right: 1em;
 }
 
-a {
-    color: #161209;
-    text-decoration: none;
-    transition: color .2s ease,border-color .2s ease,background .2s ease,opacity .2s ease;
+.intro .avatar img {
+    width: 128px;
+    height: auto;
+    display: inline-block;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 0 0 0.3618em rgba(0,0,0,.05);
+    box-shadow: 0 0 0 0.3618em rgba(0,0,0,.05);
+    margin: 0 auto;
+    -webkit-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -o-transition: all ease .4s;
+    transition: all ease .4s;
     cursor: pointer;
 }
 
@@ -291,6 +300,12 @@ body {
 
 /********* common **********/
 
+a {
+    color: #161209;
+    text-decoration: none;
+    transition: color .2s ease,border-color .2s ease,background .2s ease,opacity .2s ease;
+    cursor: pointer;
+}
 a:hover {
     color: #5a9600;
     text-decoration: none;
@@ -383,6 +398,12 @@ small {
 
 .post-near li {
     margin: 10px 0;
+}
+
+.index-menu {
+    position: fixed;
+    right: 0;
+    width: 33%;
 }
 
 .archive-title {

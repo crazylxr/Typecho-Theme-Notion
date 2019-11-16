@@ -14,7 +14,7 @@
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 
     <!-- 使用url函数转换相关路径 -->
-    <link rel="stylesheet" href="//cdnjscn.b0.upaiyun.com/libs/normalize/2.1.3/normalize.min.css">
+    <!-- <link rel="stylesheet" href="//cdnjscn.b0.upaiyun.com/libs/normalize/2.1.3/normalize.min.css"> -->
     <link rel="stylesheet" href="<?php $this->options->themeUrl('./asset/font-awesome-4.7.0/css/font-awesome.min.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
@@ -36,7 +36,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="navbar-header header-logo">
-                <a href="/">😍阿星Plus</a>
+                <a href="/"><?php $this->options->title(); ?></a>
             </div>
             <div class="menu navbar-right">
                 <?php $this->widget('Widget_Contents_Page_List')
