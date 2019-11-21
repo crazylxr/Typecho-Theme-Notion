@@ -27,6 +27,8 @@
 - 设置主页 Logo
 - 设置社交账号主页
 - 文章目录解析
+- 文章浏览量显示
+
 ## 截图
 <img src="http://imgs.taoweng.site/2019-11-18-034912.jpg" alt="首页" style="zoom:50%;" />
 
@@ -45,4 +47,4 @@
 ## FAQ
 有问题 issue 告诉我
 ## Change Log（更新日志）
-还没有正式版本
+- 主题自带浏览量显示
