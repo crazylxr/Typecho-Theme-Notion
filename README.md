@@ -48,3 +48,11 @@
 有问题 issue 告诉我
 ## Change Log（更新日志）
 - 主题自带浏览量显示
+
+## 其他
+
+百度验证
+
+```
+<meta name="baidu-site-verification" content="bPNaHbBDdS" />
+```

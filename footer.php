@@ -1,25 +1,26 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-        </div><!-- end .row -->
-    </div>
-</div><!-- end #body -->
+    <!-- </div> -->
+<!-- end #body -->
 
-<!-- <footer id="footer" class="footer" role="contentinfo">
+<footer id="footer" class="footer" role="contentinfo">
     <div class="copyright">
         <span>
-            Meowv.com | Powered by <a target="_blank" href="http://dot.net">.NET Core 3.0</a> on Linux
+        Copyright © <?php echo date('Y'); ?>
+        <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>  | 
+        Powered by <a href="http://www.typecho.org">Typecho  </a> &
+        <a href="https://github.com/crazylxr/Typecho-Theme-Notion">Notion</a>
         </span>
     </div>
-</footer> -->
-<!-- end #footer -->
-
-<!-- <footer id="footer" >
-
-
-    &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
-    <?php _e('由 <a href="http://www.typecho.org">Typecho</a> 强力驱动'); ?>.
-</footer> -->
+</footer> 
 
 <?php $this->footer(); ?>
+
+<script src="<?php $this->options->themeUrl('asset/live2d/L2Dwidget.min.js'); ?>"></script>
+<script src="<?php $this->options->themeUrl('asset/script.js'); ?>"></script>
+<div id="live2d-widget">
+    <canvas id="live2dcanvas" width="200" height="440" 
+    style="position: fixed; opacity: 1; right: 0px; bottom: 0; z-index: 99999; pointer-events: none;"></canvas>
+</div>
 </body>
 </html>

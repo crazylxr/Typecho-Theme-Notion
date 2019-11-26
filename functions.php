@@ -33,6 +33,7 @@ function themeFields($layout) {
 }
 */
 
+/** 增加浏览量 */
 function get_post_view($archive)
 {
     $cid    = $archive->cid;

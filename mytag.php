@@ -28,3 +28,5 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         </div>
     </div>
 </div>
+
+<?php $this->need('footer.php'); ?>

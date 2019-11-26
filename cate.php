@@ -9,7 +9,6 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
  $this->need('header.php');
 ?>
 
-1
 <div class="main">
     <div class="container">
         <div class="post-wrap categories">
@@ -31,3 +30,5 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         </div>
     </div>
 </div>
+
+<?php $this->need('footer.php'); ?>

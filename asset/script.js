@@ -1,0 +1,15 @@
+L2Dwidget.init({
+    "model":{
+        "scale":1,"hHeadPos":0.5,"vHeadPos":0.618,
+        "jsonPath":"./usr/themes/notion/asset/live2d/tororo/assets/tororo.model.json"
+    },
+    "display":{
+        "superSample":2,"width":100,"height":220,"position":"right","hOffset":20,"vOffset":-20
+    },
+    "mobile":{
+        "show":false,"scale":0.5
+    },
+    "react":{
+        "opacityDefault":0.7,"opacityOnHover":0.2
+    }
+});

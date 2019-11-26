@@ -142,6 +142,12 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+
     font-size: 11pt;
     font-weight: normal;
     line-height: 2em;
