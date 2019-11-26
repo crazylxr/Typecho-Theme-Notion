@@ -113,6 +113,10 @@ textarea {
     justify-content: space-between;
 }
 
+.navbar .menu a {
+    padding: 0 8px;
+}
+
 .container {
     padding-left: 1em;
     padding-right: 1em;
