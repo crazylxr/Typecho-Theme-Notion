@@ -37,7 +37,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="navbar-header header-logo">
-                <a href="/"><?php $this->options->title(); ?></a>
+                <a href="/">😈<?php $this->options->title(); ?></a>
             </div>
             <div class="menu navbar-right">
                 <?php $this->widget('Widget_Contents_Page_List')
