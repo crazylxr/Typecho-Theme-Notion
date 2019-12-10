@@ -416,6 +416,18 @@ small {
     width: 33%;
 }
 
+@media(max-width: 1000px) {
+    .index-menu {
+        display: none;
+    }
+    .archive-item-date {
+        display: none;
+    }
+    .main {
+        padding: 10px;
+    }
+}
+
 .archive-title {
     margin: 1em 0 -1em;
     padding-top: 20px;
