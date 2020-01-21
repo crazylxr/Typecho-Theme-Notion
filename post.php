@@ -12,11 +12,14 @@
                     <li><?php _e('分类: '); ?><?php $this->category(','); ?></li>
                     <li><span class="view-times"><?php get_post_view($this) ?>次围观</span></li>
                 </ul>
-                <div class="post-content" itemprop="articleBody">
+                <div class="post-content" itemprop="articleBody" id="articleBody">
                     <?php $this->content(); ?>
                 </div>
                 <p itemprop="keywords" class="tags"><?php _e('标签: '); ?><?php $this->tags(', ', true, 'none'); ?></p>
             </article>
+
+            <!-- 目录容器 -->
+            <div class="k-catelog-list" id="catelogList"></div>
     
             <?php $this->need('comments.php'); ?>
     
