@@ -7,6 +7,9 @@ function themeConfig($form) {
     $weiboUrl = new Typecho_Widget_Helper_Form_Element_Text('weiboUrl', NULL, NULL, _t('微博地址'), _t('在这里填入你的微博首页地址'));
     $twitterUrl = new Typecho_Widget_Helper_Form_Element_Text('twitterUrl', NULL, NULL, _t('twitter 地址'), _t('在这里填入你的 twitter 首页 '));
     $weixinUrl = new Typecho_Widget_Helper_Form_Element_Text('weixinUrl', NULL, NULL, _t('微信地址'), _t('在这里填入你的微信二维码地址'));
+    $rssUrl = new Typecho_Widget_Helper_Form_Element_Text('rssUrl', NULL, NULL, _t('rss地址'), _t('在这里填入你的rss地址'));
+    $adUrl = new Typecho_Widget_Helper_Form_Element_Text('adUrl', NULL, NULL, _t('ad地址'), _t('在这里填入你的广告图片,比如二维码'));
+    $weixinUrl = new Typecho_Widget_Helper_Form_Element_Text('weixinUrl', NULL, NULL, _t('微信地址'), _t('在这里填入你的微信二维码地址'));
     $otherScript= new Typecho_Widget_Helper_Form_Element_Textarea('otherScript', NULL, NULL, _t('额外脚本'), _t('可以在里面填写百度统计，google统计等脚本, 需要自己写 script 标签'));
 
     $form->addInput($logoUrl);
@@ -14,6 +17,8 @@ function themeConfig($form) {
     $form->addInput($weiboUrl);
     $form->addInput($twitterUrl);
     $form->addInput($weixinUrl);
+    $form->addInput($rssUrl);
+    $form->addInput($adUrl);
     $form->addInput($otherScript);
 
     $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 

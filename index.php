@@ -45,9 +45,12 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                 <a target="_blank" class="link-item twitter" title="twitter" href="<?php $this->options->twitterUrl() ?>">
                     <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 </a>
-                <a class="link-item rss" title="rss" href="javascript:;">
+                <a class="link-item rss" title="rss" href="<?php $this->options->rssUrl() ?>">
                     <i class="fa fa-rss-square fa-2x" aria-hidden="true"></i>
                 </a>
+            </div>
+            <div>
+                <img style="width: 250px;" src="<?php $this->options->adUrl() ?>"/>
             </div>
         </div>
     </div>
